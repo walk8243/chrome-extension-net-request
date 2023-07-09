@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension-net-request",
+  "version": "1.0.0",
+  "description": "Chrome extesionsのdeclarativeNetRequestに関しての検証",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc --sourceMap false --removeComments true",
+    "build-debug": "npx tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tsc --watch"
+  },
+  "keywords": [],
+  "author": "walk8243 <walk8243@gmail.com> (https://www.walk8243.xyz/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.240",
+    "typescript": "^5.1.6"
+  }
+}
