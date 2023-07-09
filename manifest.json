@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "chrome-extension-net-request",
+	"version": "1.0.0",
+	"description": "Chrome extesionsのdeclarativeNetRequestに関しての検証",
+
+	"permissions": [
+		"tabs",
+		"webRequest"
+	],
+	"host_permissions": [
+		"https://*/*",
+		"http://localhost/*"
+	],
+
+	"background": {
+		"service_worker": "background/script.js"
+	}
+}
